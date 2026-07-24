@@ -1,4 +1,4 @@
-<img src="Thunderfield.png" width="210px">
+<img src="Thunderfield.png" width="410px">
 # DDARX
 
 **A CUDA virtual memory KV cache layer for paged attention systems**
