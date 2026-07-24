@@ -178,17 +178,3 @@ DDARX/
     ├── build.ps1               # Configure, build, and test (Windows)
     └── run-demo.ps1             # Run the demo executable (Windows)
 ```
-
-## Roadmap
-
-- [ ] Bind `VmmAllocator` and `RadixCache` into an actual attention kernel (FlashAttention-3 or FlashInfer style) instead of the synthetic fill/patch PTX kernels used in the demo.
-- [ ] Add a Python/PyTorch binding so the allocator can sit underneath a real model runner.
-- [ ] Head to head throughput and memory fragmentation benchmarks against a standard block table paged attention allocator, across both prefill heavy and decode heavy workloads.
-- [ ] Tunable page granularity presets for short/bursty workloads versus long context workloads.
-- [ ] Linux focused build scripts to match the existing PowerShell scripts.
-
-Contributions and issue reports are welcome — please open an issue before submitting large structural changes.
-
-## License
-
-No license has been added to this repository yet. Until one is added, all rights are reserved by Thunderfield.
