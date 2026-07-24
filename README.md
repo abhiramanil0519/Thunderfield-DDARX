@@ -1,3 +1,5 @@
+![Thunderfield](Thunderfield.png)
+
 # DDARX
 
 **A CUDA virtual memory KV cache layer for paged attention systems**
