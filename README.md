@@ -19,8 +19,6 @@ DDARX is a systems level prototype that changes how the KV cache in paged attent
 - [Running the Demo](#running-the-demo)
 - [Running Tests](#running-tests)
 - [Project Structure](#project-structure)
-- [Roadmap](#roadmap)
-- [License](#license)
 
 ---
 
